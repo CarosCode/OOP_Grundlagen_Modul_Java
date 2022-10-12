@@ -24,8 +24,8 @@ public class Mitarbeiter {
     }
     //________ Weitere Methoden _____________
 
-    public void gehaltserhoehung(){
-        _gehalt=_gehalt.add(new BigDecimal(5)); //20% mehr Gehalt
+    public void gehaltserhoehung(){ 
+        _gehalt=_gehalt.add(new BigDecimal(5)); // Neues Objekt für 20% Gehaltserhöhung wird erzeugt
     }
     @Override // etwas wird überschrieben
     public String toString() {
